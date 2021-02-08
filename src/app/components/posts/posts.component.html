@@ -1,7 +1,0 @@
-<h1>
-  {{chosenPost?.id}} {{chosenPost?.title}}
-</h1>
-<app-post *ngFor="let post of posts" [post]="post" (bubbleUpPost)="getBubblePost($event)"></app-post>
-
-
-
