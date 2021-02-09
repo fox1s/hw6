@@ -1,0 +1,4 @@
+<div [className]="'chosen-user'">
+  <router-outlet ></router-outlet>
+</div>
+<app-user *ngFor="let user of users" [user]="user" [className]="'users-body'"></app-user>

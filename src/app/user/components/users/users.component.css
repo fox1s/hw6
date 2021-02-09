@@ -1,0 +1,12 @@
+.users-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chosen-user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
