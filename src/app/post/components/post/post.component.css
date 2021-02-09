@@ -9,3 +9,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.div-link-info > a{
+  color: white;
+  background: #3d465a;
+  border: 2px solid #3d465a;
+  border-radius: 5px;
+  display: inline-block;
+  width: 50px;
+  padding-left: 10px;
+  text-decoration: none;
+  margin-top: 5px;
+}
