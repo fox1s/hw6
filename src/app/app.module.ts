@@ -3,6 +3,7 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
 import {RouterModule} from '@angular/router';
+import {AppRoutingModule} from './app-routing.module';
 
 
 @NgModule({
@@ -11,10 +12,7 @@ import {RouterModule} from '@angular/router';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([
-      {path: 'posts', loadChildren: () => import('./post/post.module').then(m => m.PostModule)},
-      {path: 'users', loadChildren: () => import('./user/user.module').then(m => m.UserModule)}
-    ])
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
