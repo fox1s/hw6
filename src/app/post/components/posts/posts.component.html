@@ -1,0 +1,5 @@
+<div [className]="'chosen-post'">
+  <router-outlet></router-outlet>
+</div>
+<app-post *ngFor="let post of posts" [post]=post [className]="'posts-body'"></app-post>
+

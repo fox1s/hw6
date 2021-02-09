@@ -1,0 +1,8 @@
+<div [className]="'post'">
+  <b>{{post.id}}. {{post.title}}</b> <br>
+  {{post.body}} <br>
+  <div [className]="'div-link-info'">
+    <a [className]="'link-info'" [routerLink]="[post.id]">info</a>
+  </div>
+  <hr>
+</div>
